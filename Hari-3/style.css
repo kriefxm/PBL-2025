@@ -1,0 +1,129 @@
+/* Reset CSS dasar agar tampilan konsisten di semua browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none; 
+}
+
+
+.nav-menu {
+    list-style: none;
+    display: flex; 
+}
+
+.nav-menu li {
+    margin-left: 20px; 
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.nav-menu a:hover {
+    color: #ffd700; 
+}
+
+
+
+main .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menu-grid {
+    display: flex; 
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 0; 
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left; 
+    flex: 1;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+.menu-item img {
+    width: 100%; /* Membuat lebar gambar selalu 100% dari wadahnya (.menu-item) */
+    height: auto; /* Menjaga rasio aspek gambar agar tidak gepeng */
+    border-radius: 5px 5px 0 0; /* Membuat sudut atas gambar melengkung, mengikuti wadahnya */
+    margin-bottom: 15px; /* Memberi jarak antara gambar dengan teks di bawahnya */
+}
+
+/* Ubah sedikit agar teks di dalam card punya jarak */
+.menu-item h2, .menu-item p {
+    padding: 0 20px;
+}
+
+.menu-item h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+.checkout-section {
+    text-align: center; /* Membuat tombol berada di tengah */
+    margin-top: 40px;   /* Memberi jarak dari menu di atasnya */
+}
+
+.btn-checkout {
+    display: inline-block;
+    background-color: #28a745; 
+    color: #fff; 
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 15px 30px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-checkout:hover {
+    background-color: #218838;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
