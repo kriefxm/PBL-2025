@@ -1,4 +1,4 @@
-/* Styling untuk Halaman Profile */
+
 .profile-page .container h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -7,11 +7,11 @@
 
 .profile-card {
     max-width: 800px;
-    margin: 0 auto; /* Kartu profil akan berada di tengah */
+    margin: 0 auto; 
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Agar efek border-radius bekerja pada elemen di dalamnya */
+    overflow: hidden; 
 }
 
 .profile-header {
